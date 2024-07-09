@@ -1,0 +1,169 @@
+* {
+    margin: 0px;
+    padding: 0%;
+}
+
+.container {
+    display: flex;
+    justify-content: left;
+    align-items: right;
+}
+
+.nav1 {
+
+    background-color: bisque;
+    overflow: hidden;
+
+}
+
+.a1,
+.a2,
+.a3,
+.a4 {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: rgb(39, 37, 37);
+}
+
+.image-1 {
+    margin: 20px;
+
+    padding: 30px;
+    top: 10px;
+    height: 500px;
+    width: 600px;
+    border: 20px solid rgb(39, 37, 37);
+
+}
+
+.content {
+    flex: 1 1 auto;
+    text-align: right;
+    font-size: larger;
+    font-weight: bold;
+    font-style: oblique;
+    font-variant: small-caps;
+
+
+    padding: 250px;
+}
+
+.h1 {
+    margin: 0;
+    padding: 10px;
+    align-items: center;
+    color: rgb(39, 37, 37);
+    font-weight: 900;
+    font-size: 20000;
+}
+
+.h2 {
+    color: burlywood;
+    padding: 0em;
+}
+
+button {
+    padding: 10px 30px;
+    font-size: 15px;
+    background-color: rgb(39, 37, 37);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: antiquewhite;
+}
+
+.section2 {
+    background-color: white;
+    height: auto;
+
+    width: auto;
+}
+
+.h3 {
+    background-color: rgb(39, 37, 37);
+    color: rgb(221, 185, 148);
+    height: 100px;
+    padding: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+
+
+    text-align: center;
+
+
+
+}
+
+.h4 {
+    color: black;
+    text-align: left;
+    padding: 10px;
+    font-family: cursive;
+
+}
+
+.h5 {
+    color: black;
+    text-align: left;
+    padding: 10px;
+}
+
+.para1 {
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+.img2 {
+    margin: 20px;
+    height: 200px;
+    width: 300px;
+    border: 10px solid rgb(39, 37, 37);
+
+
+}
+
+.button2 {
+    align-items: right;
+
+
+
+}
+
+.iframe {
+    padding: 70px;
+
+
+}
+
+.footer {
+
+    background-color: antiquewhite;
+    color: black;
+    height: 100px;
+    padding: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+
+
+
+    text-align: justify;
+
+
+}
+
+.a {
+    padding: 50px;
+    color: rgb(39, 37, 37);
+    font-weight: 300;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
