@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <title>TO-DO LIST</title>
+</head>
+
+<body>
+
+
+
+
+    <section class="nav-section">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">to-DO checK</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse  justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#"> Info</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Help</a>
+                        </li>
+
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+
+    </section>
+    <!-----------------------------------------------------------background--------------------------------------------------------------------->
+
+
+    <section class="background-section">
+        <div class="p-3 mb-2 bg-success-subtle text-success-emphasis">
+            <h3>
+                To-do list <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-activity" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M6 2a.5.5 0 0 1 .47.33L10 12.036l1.53-4.208A.5.5 0 0 1 12 7.5h3.5a.5.5 0 0 1 0 1h-3.15l-1.88 5.17a.5.5 0 0 1-.94 0L6 3.964 4.47 8.171A.5.5 0 0 1 4 8.5H.5a.5.5 0 0 1 0-1h3.15l1.88-5.17A.5.5 0 0 1 6 2" />
+                </svg>
+                <small class="text-body-secondary">leTs buIld an haBiT</small>
+            </h3>
+
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                    <label class="form-check-label" for="firstCheckbox">study maths</label>
+                </li>
+                <li class="list-group-item">
+                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                    <label class="form-check-label" for="secondCheckbox">meditation</label>
+                </li>
+                <li class="list-group-item">
+                    <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                    <label class="form-check-label" for="thirdCheckbox">yoga</label>
+                </li>
+                <li class="list-group-item">
+                    <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                    <label class="form-check-label" for="firstCheckbox">morning walk</label>
+                </li>
+                <li class="list-group-item">
+                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                    <label class="form-check-label" for="secondCheckbox">evening walk</label>
+                </li>
+                <li class="list-group-item">
+                    <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                    <label class="form-check-label" for="thirdCheckbox">1hr maths</label>
+                </li>
+                <li class="list-group-item">
+                    <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                    <label class="form-check-label" for="firstCheckbox">1hr english</label>
+                </li>
+                <li class="list-group-item">
+                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                    <label class="form-check-label" for="secondCheckbox">1hr computer</label>
+                </li>
+                <li class="list-group-item">
+                    <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                    <label class="form-check-label" for="thirdCheckbox">dinner</label>
+                </li>
+                <li class="list-group-item">
+                    <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                    <label class="form-check-label" for="firstCheckbox">book read</label>
+                </li>
+                <li class="list-group-item">
+                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                    <label class="form-check-label" for="secondCheckbox">1 poem read</label>
+                </li>
+                <li class="list-group-item">
+                    <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                    <label class="form-check-label" for="thirdCheckbox">10pm sleap</label>
+                </li>
+
+
+
+
+
+
+            </ul>
+
+        </div>
+
+    </section>
+    <!---------------------------------------------important task---------------------------------------------------->
+
+    <section class="bg-main bg-color hero-section">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="co-12 col-md-12 col-lg-6 flex flex-column justify-content-center align-item-center">
+                    <h1 class="text-capatilized fw-bold ">Most Important Task</h1>
+
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                        <label class="form-check-label" for="flexSwitchCheckDefault">web devlopment
+                            </label>
+                    </div>
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked"
+                            checked>
+                        <label class="form-check-label" for="flexSwitchCheckChecked">3 times meal
+                        </label>
+                    </div>
+
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                        <label class="form-check-label" for="flexSwitchCheckDefault"> study</label>
+                    </div>
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked"
+                            checked>
+                        <label class="form-check-label" for="flexSwitchCheckChecked">book read</label>
+                    </div>
+
+
+                   
+
+
+                   
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked"
+                            checked>
+                        <label class="form-check-label" for="flexSwitchCheckChecked">Computer class</label>
+                    </div>
+
+
+                    
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked"
+                            checked>
+                        <label class="form-check-label" for="flexSwitchCheckChecked">bag pack
+                            </label>
+                    </div>
+
+
+
+
+                    <div class="text-center w-100 text-md-start">
+                        <button type="button" class="btn btn-secondary px-5 py-2" data-bs-toggle="tooltip"
+                            data-bs-placement="top" data-bs-title="CONTACT NOW">
+
+                            save
+                        </button>
+                    </div>
+
+
+                </div>
+
+                <!-------image section ------->
+                <div class=" col-12 col-md-12 col-lg-6">
+                    <div class="text-center text-lg-end" loop muted autoplay>
+                        <img src="https://www.teamly.com/blog/wp-content/uploads/2021/12/Master-Task-List.png"
+                            class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                            alt="">
+                    </div>
+                </div>
+
+
+
+
+
+
+            </div>
+        </div>
+
+        <div class="custom-shape-divider-bottom-1721236687">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+            </svg>
+        </div>
+
+
+    </section>
+
+
+
+
+    <!-------------------------------------second-section---------------------------------------->
+
+    <section class="bg-main bg-color hero-section">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="co-12 col-md-12 col-lg-6 flex flex-column justify-content-center align-item-center">
+
+
+                    <figure class="text-center pt-12">
+                        <blockquote class="blockquote">
+                            <p>“A plan is what, a schedule is when. It takes both a plan and a schedule to get things done.”</p>
+                        </blockquote>
+                        <figcaption class="blockquote-footer">
+                            Peter Turla  <cite title="Source Title">Peter Turla</cite>
+                        </figcaption>
+                    </figure>
+                </div>
+
+
+
+
+                <div class="col-12 col-md-12 col-lg-6">
+                    <div class="text-center text-lg-end" loop muted autoplay>
+                        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQA7AMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAFAAIDBAYBBwj/xABDEAABAwIEBAMDCAcGBwAAAAABAAIDBBEFEiExBhNBUSJhcRSBsQcjMjORk6HhFiRCUlVj0RVEU2KSwUNUcnOCg6L/xAAYAQADAQEAAAAAAAAAAAAAAAAAAQIDBP/EAB8RAQEAAwACAwEBAAAAAAAAAAABAhExEhMhQVEiA//aAAwDAQACEQMRAD8A9RxLVqBv0kR6vF4zfsgM+j1ln1eA7DrSt8wquz1YpPFSNVYj5xWi9XoDeyst3VSn6K23dUFiIp8moKZEpH7aICGNTMCYBrspmN0SDoCckkmCSSSQFCq0kUtOdAmVTQXp8A0CmdC0kkkqBLhK6uFANJTV1y4gkjNk5NZsnIMly66UwoBy6mhOQCSSSQAOsHzZ9EAqtHrQ1H1R9EArNHkrLNeHRbDjelCicCZSB3TsKN6YLkv1h9VU4V6zsnGD6aqlg9iB5bi2+f8AJSN43d/yI+8/JZqvaHYlUu7yu+K42MLK51r4TTWs44t/cT95+Sf+nrgdMOB/9v5LI8sd13KOqXnkfrxat3Hsh2w4fefkut49kG+Hj738llMrei6GN6pezIevFrP0/f8Aw4fe/kl+n7/4cPvPyWTyDolywl7Mh641n6fv/hw+8/JL9Pn/AMPH3n5LJZG9l3I3sn7Mh640snHEjzf2Bv3l0m8cTN2oWe95WayN7JcsdETOl641J49qB/cY/wDWUY4Y4lkxqpmhkp2xGNgeCHE31svO3x6LR/J4cmNTD96E/EKsc7ajLHT0VNKcm9V0MzSE07KQ7IViGN4ZhriKysjid+7ufsCCFm7BOWPm+UXh6AH56aQj92Pf8UOn+VbCGX5VLUP9SAgbj0ApnVYvCvlNwOtmbFUcykLtA+WxZ7yNvetm1zXtDmuDgRcEHcIGzwnJoTkGSSSSACyi8ZQOtGpR52sZCB1o8TlnmvDq1g7vm7dlLN9YfVVcFdq4eat1H1hROFl153UWdWzkf4jvinBoTHm9VKe8jvipWrnrpnHLBRzSxQRmSd7Y4xu5xsAp9EE4xsMAlOTPaWHw9/nG6InzTvxBKnrKSZr3w1EUjGC7nNcCGjzUoqadzYnCaO0v1ZDvp9dO6yDJCKfiMiA0c0z4YRTlouwlgaNtNb30T6QhkeBUwJPsmJywDro3MB+FlVwiJk1kk8MT42SSNY6R2VgcbZj2Ca+qpmCUvnjAhtzLu+hfus3xW97sXonxf3GP2h3leRjfhmQXiSodTV/EBJ/V6ljIfR+QOb+AKU/z2Lnpu5MQoY5uTJVQtl2yF4uutrqN8/s7KmJ017csOGa/os/T4bTYlVY3HPZpFZE5smUZm2Y0gAlPwF4OKV4OGl365I4VeVvhNtv3krjIJla0osDsukhcuMvmUr+SjazHo3wG63ENu8LkEk2ui3A7rcSxecbx+CvC/wBM8+PTk07pyY7ddjncfdzHBps4ggHsvnHi6LEaLFZ4sTzsmzGxd+0L6Ed16/i3HmHU1TJTUc0ckrHZS5zvDm7BYTjnHK/FMOMIqYTG/oGNdYeVxoknbzvnvGhJI7pe0t2zaqhPRTw3vI4N9VA3nXsJSfsTAuJx+y6/kvcfkerMQqeH5I65r+RFLame8HVpGoHkCsd8ikLauvqKetwikqoY2F7ayWlY58Tr/Rz26728l7awBrQ1oAaNgNLIPR4Tk0JyDJJJJABgbtPohFcLOKLs+iUKrx4is8lY9RYO60pHdEKkeIlDMMdlqLIpVaXPklOHl15udZ5D3efip2qBpvI4nuVOLLB0Tjqo43QOxLDn00cwhcXMcHubmALXB23uVetxUUdTUlwe+KnjYXNAFruJub76AXPkpcUxeOgfGzkvlL43y+Bw0a23xLhZGrL8Dcoc7hyap9oOIVkUpqZoZJWtgLQ5rBbL9LrpquO4bfC5v9m1cdOyKr9ogaYs4Z4cpG4vrcq5Nj9NCZS9jhHGXtuSBmcxuZwA7dL91M3EJKehoX18Npp3RslyaNjLrC+vS5A96reRaxDqzhoYiambEZ4paiWBsUMjYy0ROF7uAv5jTySruGvbqPEoZatuardE5r+UfAWNtffW9lal4gpmZ/mnu8D3RjQGTK4NNh0uXae9JvEEHzjpKeVoY1+xBzZXZbD1Og8wUt5wfyqVnD1XUT1girom0tVPHM+M05LgWhuzs3krlDh9fR4hPLHWxeyzTvldCYDm17Ov6dFBU469rJHMp3RiKnlkfm3NjlZbyJ2SjxaWOCljkMolYX+0OIa7OI2Xdc9NSNQl/VhfyPXuNl1B4sejkjcTTyMka/JkJB/YDzcjawOqI0VQKujgqQx0YmjbIGP3AIvqossXuHyHREODHW4opvRw/AodLsrvCJtxRR26uI/Aq8Oxnnx6yq1TLHEw81wF9LKwdl5vxtjlRh+MywFpy5QWX2sQuvbnZDizhLCqGolloazEXF5LhE2mDwL9M1wsNJJidJmDoJ8nRxb/ALLZ1vE9S8mxt6IDU4m+ZxLt/RLZ+LKVFVNMRzRIbdCuxc0uv9EdrIvM1sji4tCibGL7I8h4tdwlxbiGFwNgZJaNmwDbD3917dwzjEWOYWysjFnfRkb2cF8303h1C9n+R9shwmte6/LMwy+uXVEosegBdXAuqiJJJJABYyhtf9MoiwHNqCqGIMJdoCoyVj0PpHZasIvWfVk/5SUGhjeKppLDa+9kXrT+qvP+U/BROKy685jOvvVhtuyghIsFOCsW8VKjC6KqdK+RjrzaPIkcM2luh6jQrtRh1HUOJliJPKEQIcQQ0EOsLbaga+QVy6RIsjZhsmC4ZI14kpWvDg7Q3OXMbm3a51JCsVVFT1cTI6hsjmMt4c7he1t9ddhuhXFLp/1fk6lzJI25CM2d9mtNr7AXVWowzFntmEIYHWmAJkGrXNysY30GuttQE9b+026+hOtw7DKSnlq3U0d4WZ2lzj4cpzAD90X6BVaSHCqinEtXFFC4RsZf2nwu/wCILG/QuJudbqWnoag4biMUsLg+YFscb3h12hgDRe/xVCowOok9paKWNzHtOQEtsDyGsGnqCnPn7K/C7PDhk2LspXMZNJLFnlJncXHI4FuYX11PVWn4Lh8rnOfA5xdnv43a5iC4b7XF7IdSUNdSYm+pbRMeGmUhwkaC/OWWHfQA/YtEVGV1peM2CYrg8U7XNp6csdO5xkm5jmlgcAHWF+oGo20F0baA1oa1tmgWHokLruqm20ahkmyscMOycTUJ7y2/BV5dk7An5OIqB385qvHqM+PYjss5xdw1T8QUwBPKq4/qpbfgfJaFz2jchVamrhgaXyODQuxzPn7iDB6zCKs01fA+J+7SR4Xju09QgUjSw3tovW+P8fp6miNK+GORpNxcXLfReTyzRZi11xfa+yzrSXaA+t1xovoFMRpfS3klGy7wUjT0rBm8W3VfQPAWG/2ZwxRxPblkkbzXjzdr8LLy75P8AixbEGz1JaKSnIL2udrIegt27le0tq4rb307KsUZLIXVV9sZ0BK57XfZn2q0raSpPqn28LQFAayQGx+CAmOQdFG4x9WApj3qMuQR7uV/hj7FBXPHsVR4BYROP4J177KDEbjDqo/yX/ApWfBvN4bWHorAsoYhspwuS9dOJsj2RsLnusFBDXU0z5Gxy2dGQHhwLbEi4GvkCliE3KEbXwukY+QB5DSQy2ocQNdwB6kINS0c8uMQVFRDMyKR01Q7UgNd4WMBtsclzbzTkO0ZjFJVGCsjEcvgvFJ5FWDbcnpuhsXPjxwtYyUUnIykHSNhFiCO5NyP/FD5JsT58rRHWezOqeY94zNflDT4G21ALgBcbXS8djbRXC7osrFHjTzCaj2uN4yNeGSG1g1znG4Njclrfd3T4XYs7KZPbAYaZhjaA4c19nZszvWws43sBYdUeA82hNTDz2Q8wcx4Ja0dQN/sTmSxyZsjw7K7K6x2PYrKU9JWxexOijrG8gQML/EHOzOzym29jYCx011sntGKuYZMlfGWbtBcLufML2sdQxoPlqEXCfombV37XKV9EAwuerqMZc2ofURvjY+SWFzjkALy2MAXt9FpN/NH7i2qm46qt7Ry7KLDnZMaondp2fEKWX6KpxP5eIUzu0zD/wDQVY9Tnx61jeKQYRQvqJgC7Zre5Xl2OcXzzuc5puSfsWv4+oZ63CQ+nDnPhJLmjUkW1XjlaCHE+5b5ZXbDHGI8UxaarkJkcfJCJAZQQSrEwuq7RkJJ1HkkpXAmjNmSOaPW6mZLUX8UxPuClkALfCNey4xmuyZCmFYpVUUjXwSvY9uzmlepcJ8cx1mSmxUiOQ6Nl2Dj59l5JGy+2iv0jHNIIOqqXRWbfQ9xYHTVIuA2WW4JrZ6jAYRUPLnRuLA49QNv6e5Hy5yuM07pFGZB2ULnFRl5TC6QSkGX3U+RdyJBC1gCr4tZuE1p/kP+BV7KQqGO6YLXf9h3wSvDjziEWAUyhjOgU4XLXRC2VTFap1HRSTsDS8FrWB2xcTYfiVaJVevjfUUz4onRhzravbcbpKBJuI3tZM9sUZEYe/r42h+RrR5kh2vQWVvDsXkra8QNZHyy6Yh3XKxwaD7zf3BXaPD6WlpoIWsDhCLNcW636n1UrYKdkhkjiY15vdzWAHXdVbPwpKzsuK1pdMW10Gbm5GwuYC5g5zWZvMWNtepSnxPEqavmp55ojyYwXFobYkxudpcgk3ANtt1oBTU2dzxBHmd9I5Bc9dfenPggkl5r4Y3SWtmLRe3ZLyn4PG/rLNxCsmqIZ31RbyTNZjms8dog6xykjc9OyLcO189XA81crTIXAsF2B1sjSbhpPf7LIi2lp2tAbTxAA3ADBulHTQREGKGNhF7FrQLX3SuUv0cxpUtJDSmQxA5pDdznG5PZTkptyu3UKMl+ihlQ7JM13ZwP4onJ9FC68aO9FUTlx63VVtPSwc6Y2G3vXknHdRRzStqKalbE9+rg3S/mfNaTizEC9sUEZ8Aiabjq4i68/wCIJnSvDdg0Ab+S3yy3WMx+wN08cjjldZ37p0KYQNibFVayFpI6HuqYfURGzJSR/mF0QxpltLWTgPGNkIZWVAHiaw+YupWVUxN7NTLY7A0EiyN4NSsq6uKF8zY2OdZzzs1ZOGSU5buNjvZGKGVzbWJTJ7rQUcdHRx09O2zGN08/NWW3GhaSgnCWJS1GBUzpzmeAW5j1AOiMiq9FpGdTZB+6Ux3LabFpv6KCWqe0XYdFEK4kXNkwO2tqmueE0lNJHdIE55OyG48XHBq2/wDhOV8uA6oRxPLy8EqrftgN+0ovDjDR7BTKsxykD1y2N5UunZcuouZ5hLmJaXKk2XLpmdLMpEp6SZmXM47pKPuldQl47rnM80gnSUAkXc6AkedEOrBcFXHOJGxVWZjnmzGkk9AFUTeLWMXdTU8t7h8DHDyIaFjcT+ccHkkEEi11rMcppm0MUQfYtYB6GywWIVNTC5zZIs7e7Vr4/bLavO1t9Df1VVzLqJ1fGCc7XA9iEx1ZGdnq5C2lyAHYJ8bdVTNWwa5r+Sb7c46Rxk+pT0W4NwtRGjIMjWXAud1l2T1L+oai+EQzvmZc313QHtGA1dOaOKCM8tjAABbT1WhiY0a3BC87wqR0cTWnTzJWmpavwBpcVcRRaqmjaLNOqpl9zcfBQEtkN8xTgwW01CZNYXFMcSdE8ppTBgGupVfEaKLEKR1PKXBpN7tKsFMeTsEWEBfoph7R9bPf/qH9FwcNUF7cyf8A1D+iuV1caa+WN7nemiB1eJVktwLsb2CiyLmS7NgmD07byyzDyzi/wQyphwqMkQtmPm99/wDZU5OYXXc4k+ZTOUXbrLKb4uU5xogdGP8AtTHPg/Zgv6lP5K6Igo9bSZq5d2ijHuuuCVzd4o3Dtays8sWTTGEvCK84mp5KR/1lPb3n+qsfqIF+UPtP9UPy2XNSUriflFySqpm6R0oJ8yVXdVzE+GOJg7AXTQw9U8MRP8y8jfa6gfsxH1YuCvlD/qor9w3VPLFwQi4KqYSJuSvXl8rLlZevw581zHa43HdbCdoLNkKqI7OuNFqxYOow4ZyJBY+YVV+FxlbWrhMguWg+5C5KfU6INm/7NY39m66KNo2aEe9n8km0w7IMIhpdR4EZoIjGR4LKeGDyROmpwQmmpKeZ1hqQitJVObuSq8MLWjVoV2MNBHhCuJF6SRsgF91dEemhsg0UmQgjQq82vs0Aj8UybYphCSSYNTXa6HZJJARyxMI8Qv6oZVU0RJ8PVcSQQRNBGAbBVi0BJJZ1UNtdKySShcNIXMoSSSqjC0LgAukkkDgngJJIBWCVkkk0mPFwqNQwG6SSoKTmi9lWqIGaJJIJVfE0JoaOySSZxPGwDorUQtskkgquRElWmJJKolM1PsuJIJ//2Q=="
+                            class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-----------------------------------------------footer----------------------------------------------------------->
+
+
+
+
+    <div class="container py-4 py-md-5 px-4 px-md-3 text-body-secondary bg-color">
+        <div class="row">
+            <div class="col-lg-3 mb-3">
+
+
+            </div>
+            <div class="col-6 col-lg-2 offset-lg-1 mb-3">
+                <h5>Links</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a href="/">Home</a></li>
+                    <li class="mb-2"><a href="#">Docs</a></li>
+
+                    <li class="mb-2"><a href="#">Icons</a></li>
+                    <li class="mb-2"><a href="#">Themes</a></li>
+                    <li class="mb-2"><a href="#">Blog</a></li>
+
+                </ul>
+            </div>
+            <div class="col-6 col-lg-2 mb-3">
+                <h5>Guides</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a href="#">Getting started</a></li>
+                    <li class="mb-2"><a href="#">Starter template</a></li>
+                    <li class="mb-2"><a href="#">Webpack</a></li>
+
+                </ul>
+            </div>
+            <div class="col-6 col-lg-2 mb-3">
+                <h5>Projects</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a href="#" target="_blank" rel="noopener">Book
+                            now</a></li>
+
+                    <li class="mb-2"><a href="#" target="_blank" rel="noopener">Icons</a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="col-6 col-lg-2 mb-3">
+                <h5>Community</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a href="#" target="_blank"
+                            rel="noopener">Issues</a></li>
+                    <li class="mb-2"><a href="#" target="_blank"
+                            rel="noopener">Discussions</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

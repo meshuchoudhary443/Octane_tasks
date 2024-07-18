@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
+.commom-comtainer{
+    background-color: aqua;
+    color: black;
+    padding: 50px;
+    margin: 50px;
+    top: 60px;
+    bottom: 60px;
+
+}
+.to-do-task{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+
+}
+.quote-class{
+    background-color: black;
+    color: white;
+
+}
+.bg-color{
+    background-color: black;
+    color: white ;
+
+}
+/*shape-divider*/
+
+.custom-shape-divider-bottom-1721236687 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1721236687 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 106px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1721236687 .shape-fill {
+  
+  
+  
+    fill: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer*/
